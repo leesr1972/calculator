@@ -26,7 +26,7 @@ public class CalcServiceImpl implements CalcService {
     }
 
     @Override
-    public float getDivision(int num1, int num2) {
+    public float getDivision(float num1, float num2) {
         float div = num1 / num2;
         return div;
     }

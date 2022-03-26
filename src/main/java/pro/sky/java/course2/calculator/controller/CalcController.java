@@ -36,7 +36,7 @@ public class CalcController {
     }
 
     @GetMapping("/divide")
-    public String showDivision (@RequestParam int num1, @RequestParam int num2) {
+    public String showDivision (@RequestParam float num1, @RequestParam float num2) {
         return num1 + " / " + num2 + " = " + calcService.getDivision(num1, num2);
     }
 }
