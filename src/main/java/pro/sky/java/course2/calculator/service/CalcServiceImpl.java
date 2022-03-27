@@ -9,25 +9,21 @@ public class CalcServiceImpl implements CalcService {
 
     @Override
     public int getSum(int num1, int num2) {
-        int sum = num1 + num2;
-        return sum;
+        return num1 + num2;
     }
 
     @Override
     public int getDifference(int num1, int num2) {
-        int dif = num1 - num2;
-        return dif;
+        return num1 - num2;
     }
 
     @Override
     public int getComposition(int num1, int num2) {
-        int com = num1 * num2;
-        return com;
+        return num1 * num2;
     }
 
     @Override
     public float getDivision(float num1, float num2) {
-        float div = num1 / num2;
-        return div;
+        return num1 / num2;
     }
 }
